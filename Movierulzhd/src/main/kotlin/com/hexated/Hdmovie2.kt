@@ -19,6 +19,7 @@ class Hdmovie2 : Movierulzhd() {
         "genre/hindi-hd" to "Movies",
         "genre/hindi-webseries" to "Webseries",
         "genre/netflix" to "Netflix",
+        "genre/horror" to "Horror"
     )
 
     override suspend fun loadLinks(
