@@ -15,11 +15,10 @@ class Hdmovie2 : Movierulzhd() {
     override var mainUrl = "https://hdmovie2.chat"
     override var name = "Hdmovie2"
     override val mainPage = mainPageOf(
-        "trending" to "Trending",
-        "movies" to "Movies",
-        "genre/tv-series" to "TV Shows",
+        "movies" to "Latest",
+        "genre/hindi-hd" to "Movies",
+        "genre/hindi-webseries" to "Webseries",
         "genre/netflix" to "Netflix",
-        "genre/zee5-tv-series" to "Zee5",
     )
 
     override suspend fun loadLinks(
